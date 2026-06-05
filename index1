@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Bilqisty Ababila Juhdillah NR</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 15mm 12mm;
+            background-color: #FDFBF7;
+        }
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: #3E3A35;
+            background-color: #FDFBF7;
+            font-size: 10.5pt;
+            line-height: 1.5;
+        }
+        .header-container {
+            margin: -15mm -12mm 25px -12mm;
+            padding: 30px 12mm 25px 12mm;
+            background-color: #D9C3B0;
+            border-bottom: 3px solid #C4A484;
+            display: table;
+            width: 100%;
+        }
+        .header-row {
+            display: table-row;
+        }
+        .header-text {
+            display: table-cell;
+            vertical-align: middle;
+            width: 75%;
+        }
+        .header-image-cell {
+            display: table-cell;
+            vertical-align: middle;
+            width: 25%;
+            text-align: right;
+        }}
+        h1 {
+            margin: 0 0 5px 0;
+            font-size: 22pt;
+            color: #2C2824;
+            letter-spacing: 0.5px;
+            font-weight: 700;
+        }
+        .subtitle {
+            margin: 0;
+            font-size: 12pt;
+            color: #5A524A;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .profile-img {
+            width: 110px;
+            height: 110px;
+            border-radius: 50%;
+            border: 3px solid #FFF;
+            object-fit: cover;
+        }
+        .main-layout {
+            display: table;
+            width: 100%;
+        }
+        .layout-row {
+            display: table-row;
+        }
+        .sidebar {
+            display: table-cell;
+            width: 32%;
+            padding-right: 20px;
+            vertical-align: top;
+            border-right: 1px solid #E6DEC9;
+        }
+        .main-content {
+            display: table-cell;
+            width: 68%;
+            padding-left: 25px;
+            vertical-align: top;
+        }
+        h2 {
+            font-size: 12.5pt;
+            color: #504438;
+            margin: 0 0 12px 0;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #D9C3B0;
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            font-weight: 600;
+        }
+        h3 {
+            font-size: 11pt;
+            color: #2C2824;
+            margin: 0 0 3px 0;
+            font-weight: 600;
+        }
+        .section {
+            margin-bottom: 25px;
+            page-break-inside: avoid;
+        }
+        .about-text {
+            text-align: justify;
+            margin: 0 0 20px 0;
+            color: #4A443E;
+        }
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .info-list li {
+            margin-bottom: 8px;
+            font-size: 10pt;
+        }
+        .info-list strong {
+            color: #504438;
+        }
+        .skill-tag {
+            display: inline-block;
+            background-color: #EFE9DB;
+            color: #504438;
+            padding: 5px 12px;
+            border-radius: 15px;
+            margin: 0 6px 8px 0;
+            font-size: 9.5pt;
+            font-weight: 500;
+            border: 1px solid #E0D6BE;
+        }
+        .timeline-item {
+            margin-bottom: 15px;
+            page-break-inside: avoid;
+        }
+        .timeline-date {
+            font-size: 9.5pt;
+            color: #8C7E6E;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+        .timeline-inst {
+            font-size: 10pt;
+            color: #6E6255;
+            font-style: italic;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="header-row">
+            <div class="header-text">
+                <h1>Bilqisty Ababila Juhdillah NR</h1>
+                <div class="subtitle">Siswa Desain Komunikasi Visual (DKV)</div>
+            </div>
+            <div class="header-image-cell">
+                <!-- Ganti src dengan path foto Anda, contoh: src="foto-profil.jpg" -->
+                <img class="profile-img" src="profile_cropped.jpg" alt="Profile Photo">
+            </div>
+        </div>
+    </div>
+
+    <div class="main-layout">
+        <div class="layout-row">
+            
+            <!-- SIDEBAR -->
+            <div class="sidebar">
+                <div class="section">
+                    <h2>Kontak & Info</h2>
+                    <ul class="info-list">
+                        <li><strong>Lokasi:</strong> Sukabumi, Jawa Barat</li>
+                        <li><strong>Sekolah:</strong> SMK Plus Al-Farhan</li>
+                        <li><strong>Jurusan:</strong> Desain Komunikasi Visual</li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Keahlian</h2>
+                    <div style="margin-top: 10px;">
+                        <span class="skill-tag">Komunikasi</span>
+                        <span class="skill-tag">Manajemen Waktu</span>
+                        <span class="skill-tag">Kerjasama Tim</span>
+                        <span class="skill-tag">Public Speaking</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MAIN CONTENT -->
+            <div class="main-content">
+                <div class="section">
+                    <h2>Tentang Saya</h2>
+                    <p class="about-text">
+                        Saya adalah seorang pelajar Kelas 11 jurusan Desain Komunikasi Visual (DKV) di SMK Plus Al-Farhan yang kreatif, berdedikasi, dan memiliki jiwa kepemimpinan yang kuat. Aktif dalam berbagai organisasi sekolah dan kegiatan ekstrakurikuler, saya selalu antusias untuk mencari tantangan baru guna memperluas wawasan serta pengalaman. Memiliki kemampuan manajemen waktu, komunikasi, dan kerja sama tim yang terasah melalui peran kepemimpinan di sekolah serta partisipasi dalam program skala internasional.
+                    </p>
+                </div>
+
+                <div class="section">
+                    <h2>Pengalaman Organisasi</h2>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-date">2026 - 2027</div>
+                        <h3>Bendahara Umum</h3>
+                        <div class="timeline-inst">Forum OSIS SMK Jawa Barat</div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025 - 2026</div>
+                        <h3>Ketua OSIS</h3>
+                        <div class="timeline-inst">SMK Plus Al-Farhan</div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025 - 2026</div>
+                        <h3>Pengurus</h3>
+                        <div class="timeline-inst">Forum OSIS Kabupaten Sukabumi</div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2024 - 2026</div>
+                        <h3>Wakil Ketua OSIS</h3>
+                        <div class="timeline-inst">SMK Plus Al-Farhan</div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>Pendidikan</h2>
+                    
+                    <div class="timeline-item">
+                        <h3>SMK Plus Al-Farhan</h3>
+                        <div class="timeline-inst">Desain Komunikasi Visual (Kelas 11)</div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>SMP IT Al-Himmah</h3>
+                        <div class="timeline-inst">Sekolah Menengah Pertama</div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h3>SD Alam Indonesia Sukabumi</h3>
+                        <div class="timeline-inst">Sekolah Dasar</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
